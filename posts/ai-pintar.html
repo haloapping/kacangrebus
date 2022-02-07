@@ -13,10 +13,10 @@
   <title>kacang rebus</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
     type='text/css'>
   <link
@@ -24,14 +24,14 @@
     rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link href="../css/clean-blog.min.css" rel="stylesheet">
 </head>
 
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">kacang rebus</a>
+      <a class="navbar-brand" href="../index.html">kacang rebus</a>
 
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -43,15 +43,15 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="../index.html">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="../about.html">About</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="../contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -59,115 +59,68 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('../img/ai-pintar/ai.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-            <h1>Bagi-Bagi Tulisan</h1>
-            <span class="subheading">By Apping</span>
+          <div class="post-heading">
+            <h1>Buat AI yang bisa ngasih salam 🙋🏼‍♀️🙋🏼‍♂️</h1>
+            <h2 class="subheading">Tumpukan piring kotor biasanya sebuah masalah, tetapi dari perspektif Computer Science tumpukan adalah sebuah solusi.</h2>
+            <span class="meta">Diposting oleh
+              <a href="http://haloapping.github.io/" target="_blank">Alfiyanto Kondolele</a>
+              pada 5 February 2022</span>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview">
-          <a href="posts/tumpukan-piring-dimata-orang-computer-science.html">
-            <h2 class="post-title">
-              Tumpukan Piring dimata Orang Computer Science
-            </h2>
-
-            <h3 class="post-subtitle">
-              Tumpukan piring kotor biasanya sebuah masalah, tetapi dari perspektif Computer Science tumpukan adalah sebuah solusi.
-            </h3>
-          </a>
-
-          <p class="post-meta">Diposting oleh
-            <a href="http://haloapping.github.io/" target="_blank">Alfiyanto Kondolele</a> pada 7 Februari 2022
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="mb-4">Mau buat apa kita??</h2>
+          <img style="width: 80%; margin-top: 70px;" class="img-fluid rounded mx-auto d-block"
+          src="../img/ai-pintar/hi-cantik.png" alt="ai-pintar">
+          <p>
+            Pada post kali ini gw akan memperlihatkan cara membuat AI (<i>Artificial Intelligence</i>) / Kecerdasan Buatan yang tentunya keren.
+            Kita akan membuat AI yang bisa membalas atau ngasih salam, ketika kita ketikkan salam ke konsol.
+            Nantinya AI ini akan membalas salam kalian sesuai dengan konteks.
+            Udah siap gak nih??? Kalo belom siap gpp, siapin diri aja.. 😉
           </p>
 
-          <p class="post-meta">Referensi
-            Masalah Hidup Pribadi
+          <h2 class="mb-4">Prerequisite</h2>
+          <p>Sebelum mmulai buat AI nya ada beberapa hal yang perlu dipersiapkan, antara lain:</p>
+          <ul>
+            <li>Pilih bahasa pemograman bukan bahasa cinta, pada contoh kali ini saya pake Python 🐍.</li>
+            <li>Text Editor, ini bebas pake Notepad Putih, Notepad++, Notepad--, VSCode, dan lain-lain bisa.</li>
+            <li>Command Line, untuk memasukkan perintah/input yang nantinya akan dieksekusi sama AI.</li>
+            <li>Mental dan fisik yang sehat, jangan sampai badmoood, seperti badmood karena habis diputusin pacar.</li>
+          </ul>
+
+          <h2 class="mb-4">Bikin AI</h2>
+          <p>
+            Tahapan pertama kita perlu menginputkan nama dan salam kita ke konsol.
+            Karena, sesuai pepatah tak kenal, maka tak sayang.
+            Jadi AI minta nama dulu sama salam dari kita.
           </p>
-          <hr>
-        </div>
-
-        <div class="post-preview">
-          <a href="posts/lupa-dengan-tujuan.html">
-            <h2 class="post-title">
-              Lupa dengan Tujuan
-            </h2>
-
-            <h3 class="post-subtitle">
-              Belajar banyak hal, tapi gak ada tujuannya?? buat apa??!!
-            </h3>
-          </a>
-
-          <p class="post-meta">Diposting oleh
-            <a href="http://haloapping.github.io/" target="_blank">Alfiyanto Kondolele</a> pada 5 Februari 2022
+          
+          <img style="width: 90%; margin-top: 70px;" class="img-fluid rounded mx-auto d-block"
+          src="../img/ai-pintar/input.png" alt="input">
+          
+          <p>
+            Pada gambar di atas terdapat fungsi <i>lower()</i> untuk mengubah input salam menjadi huruf kecil.
+            Mengubah format huruf menjadi huruf kecil dilakukan untuk menormalisasi data, sehingga semua input seragam.
           </p>
-
-          <p class="post-meta">Referensi
-            Masalah Hidup Pribadi
-          </p>
-          <hr>
-        </div>
-
-        <div class="post-preview">
-          <a href="posts/common-patterns-of-inductive-reasoning.html">
-            <h2 class="post-title">
-              Pola Umum Penalaran Induktif
-            </h2>
-
-            <h3 class="post-subtitle">
-              Menelaah pola argumen induktif
-            </h3>
-          </a>
-
-          <p class="post-meta">Diposting oleh
-            <a href="http://haloapping.github.io/" target="_blank">Alfiyanto Kondolele</a> pada 26 September 2020
-          </p>
-
-          <p class="post-meta">Referensi
-            <a href="https://drive.google.com/file/d/17P9xEtWiCPN_tKflEitVhKqaU0nMbnCi/view?usp=sharing"
-              target="_blank">Critical
-              Thinking by Bassham, Irwin,
-              Nardone, and Wallace</a>
-          </p>
-          <hr>
-        </div>
-
-        <div class="post-preview">
-          <a href="posts/emotive-language-&-euphemisms.html">
-            <h2 class="post-title">
-              Emotive Language & Euphemisms
-            </h2>
-
-            <h3 class="post-subtitle">
-              Penyampaian argumen dengan tepat dan dapat diterima dengan baik
-            </h3>
-          </a>
-
-          <p class="post-meta">Diposting oleh
-            <a href="http://haloapping.github.io/" target="_blank">Alfiyanto Kondolele</a> pada 10 Oktober 2020
-          </p>
-
-          <p class="post-meta">Referensi
-            <a href="https://drive.google.com/file/d/17P9xEtWiCPN_tKflEitVhKqaU0nMbnCi/view?usp=sharing"
-              target="_blank">Critical
-              Thinking by Bassham, Irwin,
-              Nardone, and Wallace</a>
-          </p>
+          
+          <img style="width: 90%; margin-top: 70px;" class="img-fluid rounded mx-auto d-block"
+          src="../img/ai-pintar/ai-greeting.png" alt="input">
         </div>
       </div>
     </div>
-  </div>
+  </article>
 
   <hr>
 
@@ -230,11 +183,12 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/clean-blog.min.js"></script>
+  <script src="../js/clean-blog.min.js"></script>
+
 </body>
 
 </html>
